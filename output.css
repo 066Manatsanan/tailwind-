@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles for output section */
+#outputSection {
+  @apply text-center text-gray-700;
+}
+
+#outputMessage {
+  @apply text-lg;
+}
+
+
+.output-success {
+  @apply text-blue-600 font-medium;
+}
+
+
+.output-error {
+  @apply text-red-600 font-medium;
+}
